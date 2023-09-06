@@ -1,0 +1,56 @@
+body{
+    display: block;
+    margin:auto;
+    background:black;
+}
+#heading{
+    text-align: center;
+    font-size: 20em;
+    color:black;
+    font-family: 'dosis';
+}
+
+
+p{
+    color:white;
+    text-align: left;
+    margin:auto;
+    width:60%;
+    font-size: 1rem;
+    line-height: 2rem;
+    font-family:arial;
+    font-weight:100;
+}
+
+aside{
+    display:inline-block;
+    width: 49vw;
+    vertical-align: top;
+}
+
+#feature{
+    width:49vw;
+    display:inline;
+}
+#letter-0{
+    animation: letterFade .25s forwards;
+}
+
+#letter-1{
+    animation: letterFade .25s .1s forwards;
+}
+#letter-2{
+    animation: letterFade .25s .2s forwards;
+}
+#letter-3{
+    animation: letterFade .25s .3s forwards;
+}
+
+@keyframes letterFade{
+    0%{
+        color:black;
+    }
+    100%{
+        color:white;
+    }
+}
