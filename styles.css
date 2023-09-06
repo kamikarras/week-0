@@ -22,6 +22,10 @@ p{
     font-weight:100;
 }
 
+a{
+    color:pink;
+}
+
 aside{
     display:inline-block;
     width: 49vw;
